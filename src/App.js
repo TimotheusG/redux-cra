@@ -22,11 +22,6 @@ class App extends Component {
    <div className="App">
     <AllPost/>
     <PostForm />
-    <pre>
- {
-  JSON.stringify(this.props)
- }
-</pre>
     <button onClick={this.simpleAction}>Test redux action</button>
    </div>
   );
